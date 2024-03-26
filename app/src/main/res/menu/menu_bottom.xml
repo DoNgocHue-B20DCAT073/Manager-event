@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/home_navi"
+        android:title="Trang chủ"
+        android:icon="@drawable/icon_home"
+        />
+    <item android:id="@+id/setting_navi"
+        android:title="Cài đặt"
+        android:icon="@drawable/icon_setting"
+        />
+    <item android:id="@+id/list_navi"
+        android:title="Danh sách"
+        android:icon="@drawable/icon_list"
+        />
+    <item android:id="@+id/personal_navi"
+        android:title="Tôi"
+        android:icon="@drawable/icon_person"
+        />
+</menu>
