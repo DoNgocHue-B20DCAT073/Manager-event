@@ -34,11 +34,11 @@
                app:layout_constraintTop_toTopOf="parent" />
 
            <ImageView
-               android:id="@+id/imageView4"
+               android:id="@+id/send"
                android:layout_width="38dp"
                android:layout_height="35dp"
                android:layout_marginTop="8dp"
-               android:layout_marginEnd="24dp"
+               android:layout_marginEnd="20dp"
                android:src="@drawable/icons_arrow"
                app:layout_constraintEnd_toEndOf="parent"
                app:layout_constraintTop_toBottomOf="@+id/editText" />
@@ -47,10 +47,20 @@
                android:id="@+id/date"
                android:layout_width="38dp"
                android:layout_height="38dp"
-               android:layout_marginTop="4dp"
+               android:layout_marginTop="8dp"
                android:src="@drawable/icons_date"
                app:layout_constraintEnd_toStartOf="@+id/imageView4"
                app:layout_constraintHorizontal_bias="1.0"
+               app:layout_constraintStart_toStartOf="@+id/editText"
+               app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+           <ImageView
+               android:id="@+id/time"
+               android:layout_width="42dp"
+               android:layout_height="42dp"
+               android:layout_marginStart="232dp"
+               android:layout_marginTop="4dp"
+               android:src="@drawable/icon_time"
                app:layout_constraintStart_toStartOf="@+id/editText"
                app:layout_constraintTop_toBottomOf="@+id/editText" />
 

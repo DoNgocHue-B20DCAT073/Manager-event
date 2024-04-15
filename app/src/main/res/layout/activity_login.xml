@@ -34,6 +34,7 @@
         app:layout_constraintTop_toTopOf="@+id/imageView">
 
         <EditText
+            android:id="@+id/user_name"
             android:layout_width="match_parent"
             android:height="45dp"
             android:paddingStart="15dp"
@@ -42,18 +43,31 @@
             android:layout_height="wrap_content"
             android:hint="Tài khoản" />
 
-        <EditText
-            android:background="@drawable/custom_edit_text"
-            android:height="45dp"
-            android:paddingStart="15dp"
+
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Mật khẩu" />
+            app:passwordToggleEnabled="true"
+            android:hint="Mật khẩu"
+            android:textColorHint="#A9B6B8"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/pass_word"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_edit_text"
+                android:padding="10dp"
+                android:paddingStart="15dp"
+                android:drawablePadding="10dp"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
     </LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="132dp"
         android:text="Đăng ký"

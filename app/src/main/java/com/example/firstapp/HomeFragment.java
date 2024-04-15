@@ -37,7 +37,7 @@ public class HomeFragment extends Fragment {
         btnListEvent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent  intent = new Intent(getActivity(),InformationEvent.class);
+                Intent  intent = new Intent(getActivity(),ListEvent.class);
                 startActivity(intent);
             }
         });
