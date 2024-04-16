@@ -34,14 +34,14 @@
             android:layout_height="wrap_content"
             android:background="@drawable/custom_to_do_list_1_button"
             android:padding="10dp"
-            android:text="Sắp tới hạn"
+            android:text="Chưa hoàn thành"
             android:textSize="15dp"
             app:layout_constraintBottom_toBottomOf="@+id/all"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.108"
+            app:layout_constraintHorizontal_bias="0.057"
             app:layout_constraintStart_toEndOf="@+id/all"
             app:layout_constraintTop_toTopOf="@+id/all"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintVertical_bias="1.0" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/finish"
@@ -63,10 +63,10 @@
             android:layout_width="22dp"
             android:layout_height="41dp"
             android:src="@drawable/dots_gray"
-            app:layout_constraintBottom_toBottomOf="@+id/appCompatButton"
+            app:layout_constraintBottom_toBottomOf="@+id/finish"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/appCompatButton"
-            app:layout_constraintTop_toTopOf="@+id/appCompatButton" />
+            app:layout_constraintStart_toEndOf="@+id/finish"
+            app:layout_constraintTop_toTopOf="@+id/finish" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.recyclerview.widget.RecyclerView

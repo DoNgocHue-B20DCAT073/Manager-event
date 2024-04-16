@@ -185,6 +185,7 @@
                         android:layout_height="80dp"
                         android:background="@drawable/custom_fucntion"
                         android:padding="18dp"
+                        android:elevation="6dp"
                         android:src="@drawable/event" />
 
                     <TextView
@@ -213,6 +214,7 @@
                         android:layout_height="80dp"
                         android:background="@drawable/custom_fucntion"
                         android:padding="18dp"
+                        android:elevation="6dp"
                         android:src="@drawable/clipboard" />
 
                     <TextView
@@ -240,6 +242,7 @@
                         android:layout_height="80dp"
                         android:background="@drawable/custom_fucntion"
                         android:padding="18dp"
+                        android:elevation="6dp"
                         android:src="@drawable/reply" />
 
                     <TextView
@@ -267,6 +270,7 @@
                         android:layout_height="80dp"
                         android:background="@drawable/custom_fucntion"
                         android:padding="18dp"
+                        android:elevation="6dp"
                         android:src="@drawable/inventory" />
 
                     <TextView
@@ -294,6 +298,7 @@
                         android:layout_height="80dp"
                         android:background="@drawable/custom_fucntion"
                         android:padding="18dp"
+                        android:elevation="6dp"
                         android:src="@drawable/logout" />
 
                     <TextView
@@ -322,6 +327,7 @@
                         android:layout_height="80dp"
                         android:background="@drawable/custom_fucntion"
                         android:padding="18dp"
+                        android:elevation="6dp"
                         android:src="@drawable/location" />
 
                     <TextView

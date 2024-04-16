@@ -153,7 +153,7 @@ public class ToDoList extends AppCompatActivity {
         btnPickDate.setOnClickListener(v1 -> {
             DatePickerDialog pickdate = new DatePickerDialog(this);
             Calendar calendar = Calendar.getInstance();
-            pickdate.updateDate(calendar.get(Calendar.YEAR) , calendar.get(Calendar.MONTH)   , calendar.get(Calendar.DAY_OF_YEAR));
+            pickdate.updateDate(calendar.get(Calendar.YEAR) , calendar.get(Calendar.MONTH)   , calendar.get(Calendar.DAY_OF_MONTH));
             pickdate.setOnDateSetListener(new DatePickerDialog.OnDateSetListener() {
                 @Override
                 public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
